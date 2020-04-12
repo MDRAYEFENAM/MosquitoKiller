@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:textColor="#0E010E"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="17sp"
+            android:text="08kHz"/>
+
+        <Button
+            android:layout_marginLeft="3dp"
+            android:background="#F10606"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="play"
+            android:textSize="17sp"
+            android:text="Play" />
+
+   <!--     <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="pause"
+            android:textSize="17sp"
+            android:text="Pause" />-->
+
+        <Button
+            android:layout_marginLeft="3dp"
+            android:background="#06B40A"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="stop"
+            android:textSize="17sp"
+            android:text="Stop" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:textColor="#0E010E"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="17sp"
+            android:text="10kHz"/>
+
+        <Button
+            android:layout_marginLeft="3dp"
+            android:background="#F10606"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="play2"
+            android:textSize="17sp"
+            android:text="Play" />
+
+        <!--     <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:onClick="pause"
+                 android:textSize="17sp"
+                 android:text="Pause" />-->
+
+        <Button
+            android:layout_marginLeft="3dp"
+            android:background="#06B40A"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="stop"
+            android:textSize="17sp"
+            android:text="Stop" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:textColor="#0E010E"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="17sp"
+            android:text="12kHz"/>
+
+        <Button
+            android:layout_marginLeft="3dp"
+            android:background="#F10606"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="play3"
+            android:textSize="17sp"
+            android:text="Play" />
+
+        <!--     <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:onClick="pause"
+                 android:textSize="17sp"
+                 android:text="Pause" />-->
+
+        <Button
+            android:layout_marginLeft="3dp"
+            android:background="#06B40A"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="stop"
+            android:textSize="17sp"
+            android:text="Stop" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:textColor="#0E010E"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="17sp"
+            android:text="14kHz"/>
+
+        <Button
+            android:layout_marginLeft="3dp"
+            android:background="#F10606"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="play4"
+            android:textSize="17sp"
+            android:text="Play" />
+
+        <!--     <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:onClick="pause"
+                 android:textSize="17sp"
+                 android:text="Pause" />-->
+
+        <Button
+            android:layout_marginLeft="3dp"
+            android:background="#06B40A"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="stop"
+            android:textSize="17sp"
+            android:text="Stop" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:textColor="#0E010E"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="17sp"
+            android:text="16kHz"/>
+
+        <Button
+            android:layout_marginLeft="3dp"
+            android:background="#F10606"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="play5"
+            android:text="Play"
+            android:textSize="17sp" />
+
+        <!--     <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:onClick="pause"
+                 android:textSize="17sp"
+                 android:text="Pause" />-->
+
+        <Button
+            android:layout_marginLeft="3dp"
+            android:background="#06B40A"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="stop"
+            android:textSize="17sp"
+            android:text="Stop" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:textColor="#0E010E"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="17sp"
+            android:text="17kHz"/>
+
+        <Button
+            android:layout_marginLeft="3dp"
+            android:background="#F10606"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="play6"
+            android:textSize="17sp"
+            android:text="Play" />
+
+        <!--     <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:onClick="pause"
+                 android:textSize="17sp"
+                 android:text="Pause" />-->
+
+        <Button
+            android:layout_marginLeft="3dp"
+            android:background="#06B40A"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="stop"
+            android:textSize="17sp"
+            android:text="Stop" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:textColor="#0E010E"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="17sp"
+            android:text="20kHz"/>
+
+        <Button
+            android:layout_marginLeft="3dp"
+            android:background="#F10606"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="play7"
+            android:textSize="17sp"
+            android:text="Play" />
+
+        <!--     <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:onClick="pause"
+                 android:textSize="17sp"
+                 android:text="Pause" />-->
+
+        <Button
+            android:layout_marginLeft="3dp"
+            android:background="#06B40A"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="stop"
+            android:textSize="17sp"
+            android:text="Stop" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:textColor="#0E010E"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="17sp"
+            android:text="21kHz"/>
+
+        <Button
+            android:layout_marginLeft="3dp"
+            android:background="#F10606"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="play8"
+            android:textSize="17sp"
+            android:text="Play" />
+
+        <!--     <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:onClick="pause"
+                 android:textSize="17sp"
+                 android:text="Pause" />-->
+
+        <Button
+            android:layout_marginLeft="3dp"
+            android:background="#06B40A"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="stop"
+            android:textSize="17sp"
+            android:text="Stop" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
